@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="animate-fadeInUp">
+    <div class="glass-card p-5 mb-4 text-center">
+        <h1 class="display-4 fw-bold">Recruitment Analytics</h1>
+        <p class="lead text-muted">Data-driven insights for strategic hiring</p>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="metric-card text-center">
+                <i class="fas fa-clock fa-3x text-primary mb-3"></i>
+                <div class="metric-value">82%</div>
+                <div class="text-muted mt-2">Time Saved on Screening</div>
+                <small class="text-success">↑ 15% from last quarter</small>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="metric-card text-center">
+                <i class="fas fa-chart-line fa-3x text-success mb-3"></i>
+                <div class="metric-value">94%</div>
+                <div class="text-muted mt-2">Candidate Quality Score</div>
+                <small class="text-success">↑ 23% improvement</small>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="metric-card text-center">
+                <i class="fas fa-ban fa-3x text-info mb-3"></i>
+                <div class="metric-value">67%</div>
+                <div class="text-muted mt-2">Bias Reduction Rate</div>
+                <small class="text-success">Diverse hiring improved</small>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="glass-card p-4">
+                <canvas id="skillGapChart" height="300"></canvas>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="glass-card p-4">
+                <canvas id="hiringFunnel" height="300"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Skill Gap Analysis Chart
+new Chart(document.getElementById('skillGapChart'), {
+    type: 'radar',
+    data: {
+        labels: ['Python', 'SQL', 'React', 'Django', 'ML', 'Cloud'],
+        datasets: [{
+            label: 'Candidate Pool',
+            data: [85, 78, 62, 70, 55, 48],
+            backgroundColor: 'rgba(102, 126, 234, 0.2)',
+            borderColor: '#667eea',
+            borderWidth: 2
+        }, {
+            label: 'Job Requirements',
+            data: [90, 85, 80, 75, 70, 65],
+            backgroundColor: 'rgba(16, 185, 129, 0.2)',
+            borderColor: '#10b981',
+            borderWidth: 2
+        }]
+    }
+});
+
+// Hiring Funnel
+new Chart(document.getElementById('hiringFunnel'), {
+    type: 'bar',
+    data: {
+        labels: ['Resumes', 'AI Screened', 'Shortlisted', 'Interviewed', 'Hired'],
+        datasets: [{
+            label: 'Candidates',
+            data: [250, 210, 85, 42, 18],
+            backgroundColor: 'linear-gradient(135deg, #667eea, #764ba2)',
+            borderRadius: 10
+        }]
+    }
+});
+</script>
+{% endblock %}
