@@ -1,5 +1,3 @@
-# 🚀 HireFlow AI - Smart Recruitment Platform
-
 <div align="center">
 
 ![HireFlow AI Banner](media/banner.png)
