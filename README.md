@@ -2,7 +2,7 @@
 
 ![HireFlow AI Banner](media/banner.png)
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/hireflow-ai)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/datascientist970/hireflow-ai)
 [![Django](https://img.shields.io/badge/Django-5.2.15-green.svg)](https://www.djangoproject.com/)
 [![Python](https://img.shields.io/badge/Python-3.10.4-yellow.svg)](https://www.python.org/)
 [![Gemini](https://img.shields.io/badge/Gemini-AI-purple.svg)](https://ai.google.dev/)
@@ -11,7 +11,7 @@
 
 ### *"Hire Smarter, Not Harder - AI-Powered Recruitment Revolution"*
 
-[🌐 Live Demo](https://your-demo-link.com) • [🐛 Report Bug](https://github.com/yourusername/hireflow-ai/issues) • [✨ Request Feature](https://github.com/yourusername/hireflow-ai/issues)
+[🌐 Live Demo](https://your-demo-link.com) • [🐛 Report Bug](https://github.com/datascientist970/hireflow-ai/issues) • [✨ Request Feature](https://github.com/datascientist970/hireflow-ai/issues)
 
 </div>
 
