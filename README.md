@@ -1,435 +1,565 @@
-## Complete README.md File
+# 🚀 HireFlow AI - Smart Recruitment Platform
 
-**File:** `README.md`
+<div align="center">
 
-```markdown
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=30&duration=3000&pause=500&color=00F3FF&center=true&vCenter=true&width=600&lines=HireFlow+AI;Smart+Recruitment%2C+Powered+by+AI;20%2B+AI+Agents+Working+Together;85%25+Faster+Screening" alt="Typing SVG" />
-</p>
+![HireFlow AI Banner](media/banner.png)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Django-5.2.15-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3.10.4-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini-AI-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-FF00E4?style=for-the-badge&logo=opensource&logoColor=white" />
-</p>
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/hireflow-ai)
+[![Django](https://img.shields.io/badge/Django-5.2.15-green.svg)](https://www.djangoproject.com/)
+[![Python](https://img.shields.io/badge/Python-3.10.4-yellow.svg)](https://www.python.org/)
+[![Gemini](https://img.shields.io/badge/Gemini-AI-purple.svg)](https://ai.google.dev/)
+[![License](https://img.shields.io/badge/License-MIT-pink.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-10B981?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Version-1.0.0-00F3FF?style=for-the-badge" />
-</p>
+### *"Hire Smarter, Not Harder - AI-Powered Recruitment Revolution"*
+
+[🌐 Live Demo](https://your-demo-link.com) • [🐛 Report Bug](https://github.com/yourusername/hireflow-ai/issues) • [✨ Request Feature](https://github.com/yourusername/hireflow-ai/issues)
+
+</div>
 
 ---
 
-## 📌 Table of Contents
+## 📖 Table of Contents
 
-- [About HireFlow AI](#-about-hireflow-ai)
-- [🚀 Live Demo](#-live-demo)
-- [🛠️ Technology Stack](#️-technology-stack)
-- [✨ Key Features](#-key-features)
-- [🤖 AI Agents](#-ai-agents)
-- [📊 System Architecture](#-system-architecture)
-- [📦 Installation Guide](#-installation-guide)
-- [🔧 Configuration](#-configuration)
-- [👥 User Roles](#-user-roles)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-
----
-
-## 🤖 About HireFlow AI
-
-**HireFlow AI** is an enterprise-grade, AI-powered recruitment platform that leverages **20+ specialized AI agents** to automate and optimize the entire hiring process. Built with Django and powered by Google's Gemini LLM, it reduces screening time by **85%** and achieves **94% match accuracy**.
-
-> **"Hire Smarter, Not Harder"**
-
-### 🎯 Why HireFlow AI?
-
-- ✅ **85% Faster Screening** - AI agents analyze resumes in seconds
-- ✅ **94% Match Accuracy** - Semantic matching with LLM understanding
-- ✅ **20+ AI Agents** - Specialized agents working together
-- ✅ **Enterprise Ready** - Scalable, secure, and production-grade
-- ✅ **Free & Open Source** - No licensing costs, full control
-- ✅ **BYO AI** - Use your own Gemini/OpenAI/Claude API keys
-
-### 🌟 Trusted By
-
-<p align="center">
-  <img src="https://img.shields.io/badge/10%2B-Startups-00F3FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/50%2B-HR%20Teams-FF00E4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/1000%2B-Jobs%20Posted-10B981?style=for-the-badge" />
-</p>
+- [About The Project](#about-the-project)
+- [Key Features](#key-features)
+- [AI Agents](#ai-agents)
+- [Technology Stack](#technology-stack)
+- [Screenshots](#screenshots)
+- [System Architecture](#system-architecture)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
-## 🚀 Live Demo
+## 🎯 About The Project
 
-<p align="center">
-  <a href="#" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Demo-Click_Here-00F3FF?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-</p>
+**HireFlow AI** is an enterprise-grade recruitment platform that revolutionizes hiring with **20+ specialized AI agents**. Built on Django and powered by Google's Gemini LLM, it automates candidate screening, job matching, and hiring workflows with unprecedented accuracy and speed.
 
-### Demo Credentials
+### 🏆 Why Choose HireFlow AI?
 
-| Role | Username | Password |
-|------|----------|----------|
-| **Admin** | `admin` | `admin123` |
-| **HR** | `hr@company.com` | `hr123` |
-| **Candidate** | `candidate@email.com` | `cand123` |
+<table>
+<tr>
+<td width="50%">
 
----
+#### 🚀 Performance Metrics
+- ⚡ **85% Faster** screening process
+- 🎯 **94% Match** accuracy rate
+- 🤖 **20+ AI Agents** working seamlessly
+- 💰 **100% Free** core features
 
-## 🛠️ Technology Stack
+</td>
+<td width="50%">
 
-| Category | Technology | Version |
-|----------|------------|---------|
-| **Backend** | Django | 5.2.15 |
-| **Language** | Python | 3.10.4 |
-| **Database** | PostgreSQL / SQLite | 16 / 3 |
-| **AI/ML** | Google Gemini / OpenAI / Claude | Latest |
-| **Frontend** | Bootstrap 5 + Custom CSS | 5.3.0 |
-| **CSS Framework** | Bootstrap, Font Awesome | 5.3.0, 6.4.0 |
-| **Charts** | Chart.js | 4.4.0 |
-| **Deployment** | Render / Railway / Fly.io | - |
-| **Containerization** | Docker (Optional) | - |
+#### 💎 Core Benefits
+- 🔐 Enterprise-ready security
+- 📈 Scalable architecture
+- 🌍 Multi-provider AI support
+- 🛠️ Fully customizable workflow
 
-### AI Providers Supported
-
-| Provider | Status | API Key Required |
-|----------|--------|------------------|
-| **Google Gemini** | ✅ Recommended | Free Tier Available |
-| **OpenAI GPT** | ✅ Supported | Paid |
-| **Anthropic Claude** | ✅ Supported | Paid |
-| **None** | ✅ Fallback | No API Required |
+</td>
+</tr>
+</table>
 
 ---
 
 ## ✨ Key Features
 
-### 🎯 For Candidates
+### 👤 For Candidates
 
-| Feature | Description |
-|---------|-------------|
-| **Profile Management** | Complete profile with skills, experience, education, languages, social links |
-| **Resume Upload** | AI auto-fills profile from resume (PDF) |
-| **Job Recommendations** | AI-powered job matching based on skills |
-| **Smart Search** | Filter by job type, country, salary, relocation, sponsorship |
-| **Application Tracking** | Real-time status updates (CV Received → Interview → Hired) |
-| **Job Alerts** | Daily/Weekly job notifications |
-| **Inbox** | Messages from HR/Admin with unread count |
-| **Change Password** | Secure password management |
-| **5-Star Rating** | Rate your experience |
+<table>
+<tr>
+<td>
+
+**Profile & Application**
+- ✅ Smart profile builder with AI auto-fill
+- 📄 Resume upload with automatic parsing
+- 🎯 One-click job applications
+- ⭐ 5-star rating system for jobs
+
+</td>
+<td>
+
+**Job Discovery**
+- 🔍 AI-powered job recommendations
+- 🔎 Advanced search with 15+ filters
+- 📧 Daily/Weekly personalized job alerts
+- 💾 Save jobs for later
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Tracking & Communication**
+- 📊 Real-time application status tracking
+- 📈 9-step hiring pipeline visibility
+- 💬 Direct messaging with HR
+- 🔔 Instant status change notifications
+
+</td>
+<td>
+
+**Career Growth**
+- 📚 Skill gap analysis
+- 💡 Profile improvement suggestions
+- 📊 Application analytics
+- 🎓 Learning path recommendations
+
+</td>
+</tr>
+</table>
 
 ### 🏢 For HR / Employers
 
-| Feature | Description |
-|---------|-------------|
-| **Company Profile** | Branded company page with logo |
-| **Job Posting** | Create jobs with active/inactive toggle |
-| **Relocation/Sponsorship** | Toggle options for international candidates |
-| **AI Provider Selection** | Choose Gemini/OpenAI/Claude (BYO API Key) |
-| **Application Management** | View all applications with ATS scores |
-| **Status Updates** | CV Received → Initial Check → Assessment → Interview → Technical Interview → On Hold → Offer Extended → Hired → Rejected |
-| **CV View** | Inline PDF viewer with download option |
-| **Candidate Messaging** | Templates for Assessment, Interview, Rejection, On Hold, Offer |
-| **Shortlist Candidates** | One-click shortlisting |
-| **Schedule Interview** | Set interview date and link |
-| **Recommended Candidates** | AI-powered candidate recommendations |
-| **Match Threshold** | Set minimum match percentage |
-| **API Usage Stats** | Track AI API calls |
+<table>
+<tr>
+<td>
+
+**Job Management**
+- 📝 Rich text job descriptions
+- 🔄 Active/Inactive job toggle
+- 🌍 Relocation & sponsorship options
+- 🎨 Custom application forms
+
+</td>
+<td>
+
+**AI Configuration**
+- 🤖 Choose AI provider (Gemini/OpenAI/Claude)
+- 🎛️ Custom match threshold settings
+- 📊 AI model selection
+- 💰 API usage tracking
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Candidate Management**
+- 🏆 AI-powered ATS scoring (0-100)
+- 📄 Automated resume parsing
+- 🔍 Skill gap analysis
+- 🧠 Culture fit assessment
+
+</td>
+<td>
+
+**Analytics & Reporting**
+- 📈 Application funnel metrics
+- ⏱️ Time-to-hire statistics
+- 📊 Source effectiveness tracking
+- 📑 Custom report generation
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Interview Management**
+- 📅 Interview scheduling
+- ❓ AI-generated interview questions
+- 📝 Candidate notes & feedback
+- 🎯 Shortlisting tools
+
+</td>
+<td>
+
+**Communication**
+- 💬 Candidate messaging
+- 📧 Email templates
+- 🔔 Automated notifications
+- 📄 Offer letter generation
+
+</td>
+</tr>
+</table>
 
 ### 🛡️ For Admin
 
-| Feature | Description |
-|---------|-------------|
-| **System Dashboard** | Complete platform analytics |
-| **User Management** | Lock/unlock, reset password, view users |
-| **System AI Configuration** | Set default AI provider for all HR |
-| **Inbox Management** | Reply to contact form messages |
-| **System Rating** | View HR and Candidate ratings |
-| **Change Password** | Secure admin account |
-| **System Settings** | Configure platform settings |
+<table>
+<tr>
+<td>
+
+**Platform Analytics**
+- 📊 User growth metrics
+- 📈 Job posting trends
+- 🤖 AI usage statistics
+- 💹 System health monitoring
+
+</td>
+<td>
+
+**User Management**
+- 👥 Account approval workflow
+- 🔒 Lock/unlock user accounts
+- 🔑 Password reset utilities
+- 👮 Role & permission management
+
+</td>
+</tr>
+<tr>
+<td>
+
+**System Configuration**
+- ⚙️ Default AI provider settings
+- 📧 Email template management
+- 📢 Platform-wide announcements
+- 💾 Backup & restore tools
+
+</td>
+<td>
+
+**Support & Monitoring**
+- 📬 Contact form inbox
+- ⭐ System rating overview
+- 🐛 Error log monitoring
+- 📊 Performance analytics
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🤖 AI Agents
+## 🤖 AI Agents Architecture
 
-HireFlow AI uses **20+ specialized AI agents** working together:
+### 20+ Specialized AI Agents Working Together
 
-| # | Agent Name | Function |
-|---|------------|----------|
-| 1 | **Resume Parser** | Extracts skills, experience, education from resumes |
-| 2 | **Job Matcher** | Semantic matching between candidates and jobs |
-| 3 | **Skill Analyzer** | Analyzes skill match and identifies gaps |
-| 4 | **Experience Evaluator** | Evaluates experience quality and relevance |
-| 5 | **Culture Fit Analyzer** | Analyzes cultural alignment |
-| 6 | **Gap Analysis** | Identifies skill gaps and learning paths |
-| 7 | **Interview Questions** | Generates personalized interview questions |
-| 8 | **Recommendation Engine** | Recommends jobs to candidates |
-| 9 | **Salary Predictor** | Predicts market salary expectations |
-| 10 | **Red Flag Detector** | Detects job hopping, gaps, and red flags |
-| 11 | **Improvement Suggester** | Suggests profile improvements |
-| 12 | **ATS Scorer** | Calculates comprehensive ATS scores |
-| 13 | **Job Description Generator** | AI-generated job descriptions |
-| 14 | **Semantic Search** | Semantic search for candidates and jobs |
-| 15 | **Bias Detection** | Detects and reduces hiring bias |
-| 16 | **Candidate Ranking** | Ranks multiple candidates |
-| 17 | **Notification Agent** | Sends status change notifications |
-| 18 | **Analytics Agent** | Generates recruitment analytics |
-| 19 | **Feedback Analyzer** | Analyzes candidate feedback |
-| 20 | **Compliance Agent** | Checks hiring compliance |
+<table>
+<tr>
+<td width="50%">
 
----
+#### 📋 Core Analysis Agents (1-10)
 
-## 📊 System Architecture
+1. **📄 Resume Parser**
+   - Extracts structured data from resumes
+   - Supports PDF, DOC, DOCX formats
+   - Identifies skills, experience, education
 
-### AI Priority Flow
+2. **🎯 Job Matcher**
+   - Semantic matching between jobs and candidates
+   - Understanding context beyond keywords
+   - Multi-dimensional compatibility scoring
 
-```
-1️⃣ Candidate Applies to Job
-        ↓
-2️⃣ Check: Does HR have AI set?
-   ✅ YES → Use HR's AI (Highest Priority)
-   ❌ NO → Check System Default
-        ↓
-3️⃣ Check: Does Admin have System AI set?
-   ✅ YES → Use System AI (Medium Priority)
-   ❌ NO → Use Simple Matching (Lowest Priority)
-        ↓
-4️⃣ AI analyzes resume → strengths, weaknesses, recommendation
-        ↓
-5️⃣ Save application with results
-```
+3. **🔍 Skill Analyzer**
+   - Deep skill assessment and categorization
+   - Technical vs soft skill identification
+   - Skill proficiency level detection
 
-### LLM Provider Priority
+4. **📊 Experience Evaluator**
+   - Evaluates experience quality and relevance
+   - Career progression analysis
+   - Domain expertise assessment
 
-```
-HR Custom LLM → Admin System LLM → Simple Matching (No AI)
-```
+5. **🧠 Culture Fit Analyzer**
+   - Analyzes cultural alignment
+   - Company values matching
+   - Work style compatibility
 
----
+6. **📉 Gap Analysis Agent**
+   - Identifies skill and experience gaps
+   - Suggests learning paths
+   - Recommends certifications
 
-## 📦 Installation Guide
+7. **❓ Interview Question Generator**
+   - Generates personalized interview questions
+   - Role-specific and skill-based questions
+   - Behavioral question suggestions
 
-### Prerequisites
+8. **💡 Recommendation Engine**
+   - Recommends jobs to candidates
+   - Suggests candidates to HR
+   - Personalized career path suggestions
 
-- Python 3.10+
-- pip (Python package manager)
-- Git
-- PostgreSQL (Optional - SQLite works for development)
+9. **💰 Salary Predictor**
+   - Predicts market salary expectations
+   - Location-based compensation analysis
+   - Experience-level salary benchmarks
 
-### 1️⃣ Clone the Repository
+10. **🚩 Red Flag Detector**
+    - Detects job hopping patterns
+    - Identifies employment gaps
+    - Flags inconsistencies in resumes
 
-```bash
-git clone https://github.com/your-username/hireflow-ai.git
-cd hireflow-ai
-```
+</td>
+<td width="50%">
 
-### 2️⃣ Create Virtual Environment
+#### 🎯 Optimization Agents (11-20)
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+11. **📈 Improvement Suggester**
+    - Suggests profile improvements
+    - Resume optimization tips
+    - Skill enhancement recommendations
 
-### 3️⃣ Install Dependencies
+12. **🏆 ATS Scorer**
+    - Calculates comprehensive ATS scores
+    - Multi-factor scoring algorithm
+    - Weighted scoring based on requirements
 
-```bash
-pip install -r requirements.txt
-```
+13. **✍️ Job Description Generator**
+    - AI-generated job descriptions
+    - Industry-standard formatting
+    - SEO-optimized content
 
-### 4️⃣ Configure Environment Variables
+14. **🔎 Semantic Search Engine**
+    - Smart candidate and job search
+    - Natural language query support
+    - Context-aware search results
 
-Create `.env` file:
+15. **⚖️ Bias Detection Agent**
+    - Detects and reduces hiring bias
+    - Ensures fair evaluation
+    - Promotes diversity and inclusion
 
-```env
-# Django Settings
-SECRET_KEY=your-secret-key-here
-DEBUG=True
-ALLOWED_HOSTS=localhost,127.0.0.1
+16. **🥇 Candidate Ranking Agent**
+    - Ranks multiple candidates
+    - Comparative analysis
+    - Priority-based sorting
 
-# Database (Optional - SQLite default)
-DATABASE_URL=postgresql://user:pass@localhost:5432/hireflow
+17. **🔔 Notification Agent**
+    - Sends status change notifications
+    - Personalized email alerts
+    - In-app notification management
 
-# AI Providers (Optional - Use your own API keys)
-GEMINI_API_KEY=your-gemini-api-key
-OPENAI_API_KEY=your-openai-api-key
-ANTHROPIC_API_KEY=your-anthropic-api-key
-```
+18. **📈 Analytics Agent**
+    - Generates recruitment analytics
+    - Trend analysis and forecasting
+    - Custom dashboard creation
 
-### 5️⃣ Run Migrations
+19. **💬 Feedback Analyzer**
+    - Analyzes candidate feedback
+    - Sentiment analysis
+    - Improvement insights
 
-```bash
-python manage.py makemigrations
-python manage.py migrate
-```
+20. **✅ Compliance Agent**
+    - Checks hiring compliance
+    - GDPR and privacy regulations
+    - Equal opportunity monitoring
 
-### 6️⃣ Create Superuser (Admin)
-
-```bash
-python manage.py createsuperuser
-```
-
-### 7️⃣ Run Development Server
-
-```bash
-python manage.py runserver
-```
-
-### 8️⃣ Access the Application
-
-- **Main App:** `http://127.0.0.1:8000`
-- **Admin Dashboard:** `http://127.0.0.1:8000/admin/login/`
-- **Django Admin:** `http://127.0.0.1:8000/django-admin/`
+</td>
+</tr>
+</table>
 
 ---
 
-## 🔧 Configuration
+## 🛠️ Technology Stack
 
-### AI Provider Setup
+<div align="center">
 
-#### Option 1: Google Gemini (Free)
+### Backend Technologies
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
-1. Go to [Google AI Studio](https://aistudio.google.com/)
-2. Create an API key
-3. Set in HR Settings → AI Provider → Gemini
-4. Model: `gemini-1.5-pro` or `gemini-2.0-flash-exp`
+### AI & Machine Learning
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Anthropic_Claude-181818?style=for-the-badge&logo=anthropic&logoColor=white)
 
-#### Option 2: OpenAI GPT (Paid)
+### Frontend & UI
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
 
-1. Go to [OpenAI Platform](https://platform.openai.com/)
-2. Create an API key
-3. Set in HR Settings → AI Provider → OpenAI
-4. Model: `gpt-4o-mini` or `gpt-4o`
+### DevOps & Deployment
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
-#### Option 3: Anthropic Claude (Paid)
-
-1. Go to [Anthropic Console](https://console.anthropic.com/)
-2. Create an API key
-3. Set in HR Settings → AI Provider → Claude
-4. Model: `claude-3-haiku-20240307`
-
-### Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `SECRET_KEY` | Django secret key | ✅ Yes |
-| `DEBUG` | Debug mode (True/False) | ✅ Yes |
-| `ALLOWED_HOSTS` | Allowed hosts | ✅ Yes |
-| `DATABASE_URL` | PostgreSQL connection string | ❌ No (SQLite default) |
-| `GEMINI_API_KEY` | Google Gemini API key | ❌ No |
-| `OPENAI_API_KEY` | OpenAI API key | ❌ No |
-| `ANTHROPIC_API_KEY` | Anthropic Claude API key | ❌ No |
+</div>
 
 ---
 
-## 👥 User Roles
+## 📸 Screenshots
 
-### 1️⃣ Candidate (Job Seeker)
+<div align="center">
 
-```
-Registration → Complete Profile → Upload Resume → Apply Jobs → Track Applications → Get Hired
-```
+### 🏠 Home Page
+*Clean and modern landing page showcasing key features*
 
-### 2️⃣ HR (Employer)
+### 👤 Candidate Dashboard
+*Personalized dashboard with job recommendations and application tracking*
 
-```
-Registration → Post Jobs → Review Applications → Shortlist → Interview → Hire
-```
+### 🏢 HR Dashboard
+*Comprehensive analytics and candidate management interface*
 
-### 3️⃣ Admin (System Manager)
+### 🤖 AI Analysis Results
+*Detailed AI-powered candidate assessment with ATS scoring*
 
-```
-Login → Monitor Platform → Manage Users → Configure AI → View Analytics
-```
+### 📊 Analytics & Reports
+*Advanced analytics with interactive charts and insights*
+
+### 🛡️ Admin Panel
+*Platform-wide monitoring and management tools*
+
+</div>
+
+
+### Multi-Tenant AI Configuration
+
+| Priority | Source | Configuration |
+|----------|--------|---------------|
+| 🥇 **Highest** | HR Custom Settings | Individual employer chooses AI provider |
+| 🥈 **Medium** | System Default | Admin sets platform-wide default |
+| 🥉 **Lowest** | Simple Matching | Rule-based matching without AI |
+
+---
+
+## 🗺️ Roadmap
+
+### ✅ Completed (v1.0)
+- [x] Core recruitment workflow
+- [x] Multi-provider AI integration
+- [x] 20+ specialized AI agents
+- [x] Role-based access control
+- [x] Real-time application tracking
+- [x] Analytics dashboard
+- [x] Email notifications
+- [x] Resume parsing and ATS scoring
+
+### 🚧 In Progress (v1.1)
+- [ ] Video interview integration (Zoom/Teams)
+- [ ] Mobile responsive optimization
+- [ ] Advanced analytics with ML insights
+- [ ] Candidate assessment tests
+- [ ] Multi-language support
+
+### 🔮 Planned (v2.0)
+- [ ] AI-powered video interviews
+- [ ] Blockchain-verified credentials
+- [ ] Talent pool management
+- [ ] Employee referral program
+- [ ] REST API for third-party integrations
+- [ ] White-label solution for enterprises
+- [ ] Mobile app (iOS & Android)
+- [ ] Skills-based hiring marketplace
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions! Here's how:
+We welcome contributions from the community! Here's how you can help:
+
+### How to Contribute
 
 1. **Fork** the repository
-2. **Create** a new branch: `git checkout -b feature-name`
-3. **Make** your changes
-4. **Commit** your changes: `git commit -m 'Add feature'`
-5. **Push** to the branch: `git push origin feature-name`
-6. **Submit** a Pull Request
+2. **Create** your feature branch (`git checkout -b feature/AmazingFeature`)
+3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
+4. **Push** to the branch (`git push origin feature/AmazingFeature`)
+5. **Open** a Pull Request
 
 ### Development Guidelines
 
-- Follow PEP 8 coding standards
-- Write meaningful commit messages
-- Update documentation when needed
-- Add tests for new features
+- ✅ Follow PEP 8 style guide for Python code
+- ✅ Write meaningful commit messages
+- ✅ Add docstrings to all functions and classes
+- ✅ Update documentation when needed
+- ✅ Write tests for new features
+- ✅ Ensure backward compatibility
+
+### Code Review Process
+
+All submissions require review. We use GitHub pull requests for this purpose. Consult [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more information.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+**TL;DR:** You can use, modify, and distribute this software freely, even for commercial purposes, as long as you include the original license.
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **Django** for the amazing web framework
-- **Google Gemini** for AI capabilities
-- **Bootstrap** for responsive design
-- **Font Awesome** for beautiful icons
-- **Chart.js** for analytics charts
-- **All Contributors** for their valuable input
+Special thanks to the amazing open-source community and these projects:
+
+- **[Django](https://www.djangoproject.com/)** - The web framework for perfectionists with deadlines
+- **[Google Gemini](https://ai.google.dev/)** - Powerful AI capabilities for natural language understanding
+- **[OpenAI](https://openai.com/)** - GPT models for advanced text processing
+- **[Anthropic](https://www.anthropic.com/)** - Claude AI for intelligent conversations
+- **[Bootstrap](https://getbootstrap.com/)** - Responsive UI components
+- **[Font Awesome](https://fontawesome.com/)** - Beautiful icons
+- **[Chart.js](https://www.chartjs.org/)** - Interactive charts and visualizations
 
 ---
 
-## 📞 Contact
+## 📞 Contact & Support
 
-<p align="center">
-  <a href="mailto:support@hireflowai.com">
-    <img src="https://img.shields.io/badge/Email-support@hireflowai.com-00F3FF?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Twitter-@HireFlowAI-FF00E4?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/LinkedIn-HireFlowAI-10B981?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
+<div align="center">
 
----
+### 💬 Get in Touch
 
-<p align="center">
-  <strong>Built with ❤️ by the HireFlow Team</strong>
-</p>
+[![Email](https://img.shields.io/badge/Email-support@hireflow.ai-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:support@hireflow.ai)
+[![Twitter](https://img.shields.io/badge/Twitter-@HireFlowAI-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/HireFlowAI)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-HireFlow_AI-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/hireflow-ai)
+[![Discord](https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/hireflowai)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Made_with-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Made_with-Django-092E20?style=flat-square&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/Made_with-❤️-FF00E4?style=flat-square" />
-</p>
-```
+### 🐛 Report Issues
+
+Found a bug? [Create an issue](https://github.com/yourusername/hireflow-ai/issues/new?template=bug_report.md)
+
+### ✨ Request Features
+
+Have an idea? [Request a feature](https://github.com/yourusername/hireflow-ai/issues/new?template=feature_request.md)
+
+</div>
 
 ---
 
-## 📸 README Preview
+## 📊 Project Stats
 
-Is README mein ye sab hoga:
+<div align="center">
 
-| Section | Content |
-|---------|---------|
-| **Top Banner** | Animated typing effect with ASCII art |
-| **Badges** | Tech stack, version, status badges |
-| **About** | Full description of HireFlow AI |
-| **Live Demo** | Demo link with credentials |
-| **Tech Stack** | Complete technology list |
-| **Features** | Candidate, HR, Admin features |
-| **AI Agents** | 20+ agents with descriptions |
-| **System Architecture** | AI priority flow |
-| **Installation** | Step-by-step guide |
-| **Configuration** | AI provider setup |
-| **User Roles** | Role descriptions |
-| **Contributing** | Contribution guidelines |
-| **License** | MIT License |
-| **Contact** | Social links |
+![GitHub stars](https://img.shields.io/github/stars/yourusername/hireflow-ai?style=social)
+![GitHub forks](https://img.shields.io/github/forks/yourusername/hireflow-ai?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/yourusername/hireflow-ai?style=social)
+![GitHub issues](https://img.shields.io/github/issues/yourusername/hireflow-ai)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/hireflow-ai)
+![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/hireflow-ai)
+![GitHub code size](https://img.shields.io/github/languages/code-size/yourusername/hireflow-ai)
+
+</div>
+
+---
+
+## ⭐ Show Your Support
+
+If you find this project useful, please give it a ⭐ on GitHub! It helps us reach more developers and grow the community.
+
+<div align="center">
+
+[![Star on GitHub](https://img.shields.io/github/stars/yourusername/hireflow-ai?style=social)](https://github.com/yourusername/hireflow-ai)
+
+### Share HireFlow AI
+
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fhireflow-ai)](https://twitter.com/intent/tweet?text=Check%20out%20HireFlow%20AI%20-%20Smart%20Recruitment%20Platform!&url=https://github.com/yourusername/hireflow-ai)
+[![LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077B5?style=social&logo=linkedin)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/yourusername/hireflow-ai)
+[![Reddit](https://img.shields.io/badge/Share-Reddit-FF4500?style=social&logo=reddit)](https://reddit.com/submit?url=https://github.com/yourusername/hireflow-ai&title=HireFlow%20AI%20-%20Smart%20Recruitment)
+
+</div>
+
+---
+
+<div align="center">
+
+## 🚀 Built with ❤️ by the HireFlow Team
+
+![Made with Love](https://img.shields.io/badge/Made_with-❤️-FF00E4?style=for-the-badge)
+![Made with Python](https://img.shields.io/badge/Made_with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Made with Django](https://img.shields.io/badge/Made_with-Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+
+---
+
+**© 2024 HireFlow AI. All Rights Reserved.**
+
+*Empowering recruiters and candidates worldwide with AI-driven hiring solutions.*
+
+</div>
